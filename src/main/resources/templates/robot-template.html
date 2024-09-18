@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Details</title>
+</head>
+<body>
+<h1>Robot Information</h1>
+
+<div>
+    <h2>Name: <span th:text="${bot.name}"></span></h2>
+    <p>Manufacture Date: <span th:text="${bot.birthDate}"></span></p>
+    <p>Power Level: <span th:text="${bot.powerLevel}"></span></p>
+</div>
+
+</body>
+</html>
